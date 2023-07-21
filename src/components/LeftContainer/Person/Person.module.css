@@ -1,0 +1,44 @@
+.wrapper {
+  display: flex;
+  align-items: center;
+  margin-bottom: 50px;
+}
+.foto-container {
+  z-index: 5;
+  width: 380px;
+  border: 15px solid var(--color-black);
+  border-radius: 50%;
+  overflow: hidden;
+  background: var(--color-orange);
+  position: relative;
+  left: 100px;
+}
+.img {
+  width: 360px;
+  position: relative;
+  top: 30px;
+  left: 15px;
+}
+
+.person-container {
+  width: 100%;
+  /* height: 150px; */
+  background: var(--color-orange);
+  padding: 40px 0 40px 80px;
+  position: absolute;
+  left: 480px;
+  z-index: 1;
+}
+.name {
+  font-size: var(--font-size50);
+  text-transform: uppercase;
+  color: var(--color-white);
+  font-weight: 500;
+  line-height: 80px;
+}
+.position {
+   font-size: var(--font-size30);
+   text-transform: uppercase;
+   font-weight: 300;
+   color: var(--color-white);
+}

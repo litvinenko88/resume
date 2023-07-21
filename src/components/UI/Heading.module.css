@@ -1,0 +1,15 @@
+.wrapper {
+  background: var(--color-orange);
+  width: 90%;
+  height: 70px;
+  display: flex;
+  align-items: center;
+  justify-content: end;
+  margin-bottom: 50px;
+}
+.heading {
+  font-size: var(--font-size30);
+  padding-right: 50px;
+  text-transform: uppercase;
+  color: var(--color-black);
+}
