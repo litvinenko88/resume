@@ -1,0 +1,25 @@
+.wrapper {
+  width: 90%;
+  margin-bottom: 50px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.display-container {
+  width: 80%;
+  border: 1px solid red;
+  display: flex;
+  overflow: hidden;
+}
+.slider-wrapper {
+  width: 100%;
+  text-align: center;
+  display: flex;
+  position: relative;
+}
+.button {
+  background: none;
+  border: none;
+  font-size: var(--font-size24);
+  cursor: pointer;
+}

@@ -7,8 +7,8 @@ function AboutMe() {
   return (
     <React.Fragment>
       <Heading heading="Коротко обо мне" />
-      <div className="wrapper">
-        <div className="conteiner-text">
+      <div className={styles.wrapper}>
+        <div className={styles['conteiner-text']}>
           <p className={styles["text-me"]}>
             В последние годы я работаю по другой специальности. Я думаю, что моя
             настоящая работа рано или поздно приведет меня к застою. Мне

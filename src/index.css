@@ -4,6 +4,9 @@
   box-sizing: border-box;
 }
 
+* {
+  box-sizing: border-box;
+}
 body {
   margin: 0;
   background: #ffdc98;
@@ -18,16 +21,8 @@ body {
   --color-orange: #ff9c03;
   --Roboto: "Roboto", sans-serif;
   --font-size50: 50px;
-  --font-size30: 35px;
+  --font-size35: 35px;
+  --font-size24: 24px;
   --font-size16: 16px;
   --line-height-text: 24px;
-}
-
-.wrapper {
-  width: 90%;
-  margin-bottom: 50px;
-}
-
-.conteiner-text {
-  padding-left: 100px;
 }
