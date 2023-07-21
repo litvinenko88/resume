@@ -22,3 +22,12 @@ body {
   --font-size16: 16px;
   --line-height-text: 24px;
 }
+
+.wrapper {
+  width: 90%;
+  margin-bottom: 50px;
+}
+
+.conteiner-text {
+  padding-left: 100px;
+}
