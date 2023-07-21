@@ -1,0 +1,37 @@
+.conteiner-text {
+  padding-left: 100px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 50px;
+}
+.container-time {
+  width: 49%;
+  display: flex;
+  align-items: center;
+}
+.container-experience {
+  width: 49%;
+  /* display: flex;
+   align-items: center; */
+}
+.text-time {
+  font-size: var(--font-size16);
+  line-height: 20px;
+}
+.headign-experience {
+  font-size: var(--font-size16);
+  line-height: 20px;
+  font-weight: 600;
+  margin-bottom: 15px;
+}
+.post {
+  font-size: var(--font-size16);
+  line-height: 20px;
+  font-style: italic;
+  margin-bottom: 15px;
+}
+.experience-text {
+  font-size: var(--font-size16);
+  line-height: var(--line-height-text);
+}
