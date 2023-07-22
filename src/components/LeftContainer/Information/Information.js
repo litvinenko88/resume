@@ -20,7 +20,7 @@ const INFORMATION_ARRAY = [
     text: "Готовность к командировкам: нет",
   },
   {
-    text: "Город проживания: Ставрополь",
+    text: "Город проживания: Ставропольский край, г.Ставрополь",
   },
 ];
 
@@ -28,13 +28,15 @@ function Information() {
   return (
     <React.Fragment>
       <Heading heading="Дополнительная информация" />
-
-      <div className={styles.wrapper}>
-        <ul className={styles["container-info"]}>
-          {INFORMATION_ARRAY.map((item) => (
-            <InformationList text={item.text}/>
-          ))}
-        </ul>
+      <div>
+        <div className={styles.wrapper}>
+          <ul className={styles["container-info"]}>
+            {INFORMATION_ARRAY.map((item) => (
+              <InformationList text={item.text} />
+            ))}
+          </ul>
+        </div>
+        <div className={styles.decor}></div>
       </div>
     </React.Fragment>
   );

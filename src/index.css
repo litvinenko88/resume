@@ -1,6 +1,8 @@
 @import "reset.css";
 @import "normalize.css";
-@import "./assets/font/stylesheet.css" * {
+@import "./assets/font/stylesheet.css";
+
+* {
   box-sizing: border-box;
 }
 
