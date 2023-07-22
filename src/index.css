@@ -1,6 +1,7 @@
 @import "reset.css";
 @import "normalize.css";
 @import "./assets/font/stylesheet.css";
+@import 'bootstrap-icons';
 
 * {
   box-sizing: border-box;

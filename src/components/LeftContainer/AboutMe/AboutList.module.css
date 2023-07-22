@@ -1,0 +1,6 @@
+.box {
+  display: flex;
+  align-items: center;
+  font-size: var(--font-size16);
+  margin-bottom: 15px;
+}

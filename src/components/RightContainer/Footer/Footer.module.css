@@ -1,0 +1,22 @@
+.wrapper {
+  margin-top: auto;
+}
+.decor {
+  width: 100%;
+  height: 5px;
+  background: var(--color-white);
+  margin-bottom: 30px;
+}
+.container-icons {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.link {
+  font-size: var(--font-size35);
+  background: var(--color-white);
+  padding: 4px 8px;
+}
+.link i {
+  color: var(--color-black);
+}

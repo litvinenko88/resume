@@ -8,6 +8,9 @@ const INFORMATION_ARRAY = [
     text: "Гражданство: Россия",
   },
   {
+    text: "Город проживания: Ставропольский край, г.Ставрополь",
+  },
+  {
     text: "Занятость: полная занятость, проектная работа, стажировка",
   },
   {
@@ -19,9 +22,6 @@ const INFORMATION_ARRAY = [
   {
     text: "Готовность к командировкам: нет",
   },
-  {
-    text: "Город проживания: Ставропольский край, г.Ставрополь",
-  },
 ];
 
 function Information() {
@@ -32,7 +32,7 @@ function Information() {
         <div className={styles.wrapper}>
           <ul className={styles["container-info"]}>
             {INFORMATION_ARRAY.map((item) => (
-              <InformationList text={item.text} />
+              <InformationList key={item.text} text={item.text} />
             ))}
           </ul>
         </div>
