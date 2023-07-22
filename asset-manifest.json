@@ -1,8 +1,10 @@
 {
   "files": {
-    "main.css": "/resume/static/css/main.f2151248.css",
-    "main.js": "/resume/static/js/main.961d23c4.js",
+    "main.css": "/resume/static/css/main.fa3232f7.css",
+    "main.js": "/resume/static/js/main.dc112238.js",
     "static/media/Prodject-2.jpg": "/resume/static/media/Prodject-2.532fd7a9cfa34c599ad3.jpg",
+    "static/media/bootstrap-icons.woff?": "/resume/static/media/bootstrap-icons.4753c5ba57962b4d7bf8.woff",
+    "static/media/bootstrap-icons.woff2?": "/resume/static/media/bootstrap-icons.6d63d0501e5ed7b79dab.woff2",
     "static/media/105420686-transformed.png": "/resume/static/media/105420686-transformed.188ef7435288e4b93727.png",
     "static/media/Prodject-1.jpg": "/resume/static/media/Prodject-1.2b26c15ea369af40d2d2.jpg",
     "static/media/Roboto-BlackItalic.woff": "/resume/static/media/Roboto-BlackItalic.65f2f623b88fefa3fe3e.woff",
@@ -31,11 +33,11 @@
     "static/media/Roboto-Light.woff2": "/resume/static/media/Roboto-Light.4ca616225439b353c722.woff2",
     "static/media/Roboto-Thin.woff2": "/resume/static/media/Roboto-Thin.8e9578cce5d551036e41.woff2",
     "index.html": "/resume/index.html",
-    "main.f2151248.css.map": "/resume/static/css/main.f2151248.css.map",
-    "main.961d23c4.js.map": "/resume/static/js/main.961d23c4.js.map"
+    "main.fa3232f7.css.map": "/resume/static/css/main.fa3232f7.css.map",
+    "main.dc112238.js.map": "/resume/static/js/main.dc112238.js.map"
   },
   "entrypoints": [
-    "static/css/main.f2151248.css",
-    "static/js/main.961d23c4.js"
+    "static/css/main.fa3232f7.css",
+    "static/js/main.dc112238.js"
   ]
 }
