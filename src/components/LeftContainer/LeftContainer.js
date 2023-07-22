@@ -4,6 +4,7 @@ import AboutMe from "./AboutMe/AboutMe";
 import Prodject from "./Prodject/Prodject";
 import Experience from "./Experience/Experience";
 import Educationem from "./Educationem/Educationem";
+import Information from "./Information/Information";
 
 function LeftContainer() {
   return (
@@ -13,6 +14,7 @@ function LeftContainer() {
       <Prodject />
       <Experience />
       <Educationem />
+      <Information />
     </div>
   );
 }
