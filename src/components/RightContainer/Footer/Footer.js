@@ -9,10 +9,10 @@ function Footer() {
           <i className="bi bi-telegram"></i>
         </a>
         <a href="https://wa.me/79964179001?" className={styles.link}>
-          <i class="bi bi-whatsapp"></i>
+          <i className="bi bi-whatsapp"></i>
         </a>
         <a href="mailto:litvinenko_n.v@mail.ru" className={styles.link}>
-          <i class="bi bi-envelope-at"></i>
+          <i className="bi bi-envelope-at"></i>
         </a>
       </div>
     </div>

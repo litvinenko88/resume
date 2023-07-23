@@ -12,11 +12,12 @@
   height: 100%;
   background: var(--color-orange);
   padding-left: 20px;
+  transition: 'width 4s';
 }
 .progres {
   font-size: var(--font-size24);
   color: var(--color-white);
-  line-height: 32px;
+  line-height: 35px;
 }
 .title {
   font-size: var(--font-size24);
@@ -25,3 +26,4 @@
   position: absolute;
   top: -30px;
 }
+

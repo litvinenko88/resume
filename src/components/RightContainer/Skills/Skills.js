@@ -1,5 +1,5 @@
 import Wrapper from "../../UI/Wrapper";
-import styles from "./Skills.module.css";
+
 import React from "react";
 import ProgresBar from "../../UI/ProgresBar";
 
@@ -62,7 +62,7 @@ function Skills() {
   return (
     <React.Fragment>
       <Wrapper heading="Pro skills" />
-      <ul className={styles.wrapper}>
+      <ul>
         {SKILLS.map((item, idx) => (
           <ProgresBar key={idx} completed={item.completed} title={item.title} />
         ))}

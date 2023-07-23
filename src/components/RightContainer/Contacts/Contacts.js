@@ -34,18 +34,19 @@ function Contacts() {
   return (
     <React.Fragment>
       <Wrapper heading="Контакты" />
-
-      <ul className={styles.wrapper}>
-        {CONTACTS_ARRAY.map((item) => (
-          <ContactsList
-            key={item.text}
-            icons={item.icons}
-            text={item.text}
-            title={item.title}
-            link={item.link}
-          />
-        ))}
-      </ul>
+      <nav>
+        <ul className={styles.wrapper}>
+          {CONTACTS_ARRAY.map((item, i) => (
+            <ContactsList
+              key={i}
+              icons={item.icons}
+              text={item.text}
+              title={item.title}
+              link={item.link}
+            />
+          ))}
+        </ul>
+      </nav>
     </React.Fragment>
   );
 }
