@@ -9,10 +9,10 @@ function RightContainer() {
   return (
     <React.Fragment>
       <div className={styles.wrapper}>
-        <HamburgerMenu className={styles.hamburger}></HamburgerMenu>
         <Contacts />
         <Skills />
         <Footer />
+        <HamburgerMenu className={styles.hamburger}></HamburgerMenu>
       </div>
     </React.Fragment>
   );

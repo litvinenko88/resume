@@ -1,6 +1,11 @@
-.wrapper{
-   background: var(--color-white);
-   width: 65%;
-   padding-top: 60px;
+.wrapper {
+  background: var(--color-white);
+  width: 65%;
+  padding-top: 60px;
 }
 
+/* @media screen and (max-width: 1280px) {
+  .wrapper{
+    width: 100%;
+  }
+} */

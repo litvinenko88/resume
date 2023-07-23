@@ -1,5 +1,4 @@
 import HamburgerList from "./HamburgerList";
-import styles from "./HamburgerMenu.module.css";
 
 function HamburgerMenu(props) {
   return (

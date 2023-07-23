@@ -1,10 +1,11 @@
-.wrapper{
-   overflow: hidden;
-   display: flex;
-   max-width: 1440px;
-   margin: 0 auto;
-   position: relative;
+.wrapper {
+  overflow: hidden;
+  display: flex;
+  max-width: 1600px;
+  margin: 0 auto;
+  position: relative;
 }
-.container-display{
-   /* display: none; */
-}
+
+@media screen and (min-width: 1440px) and (max-width: 1599px){    
+  
+ }
