@@ -9,3 +9,10 @@
 .box i {
   color: var(--color-orange);
 }
+
+
+@media screen and (max-width: 768px) {
+  .box p {
+    line-height: var(--line-height-text);
+  }
+}

@@ -19,11 +19,11 @@
 }
 .text-time {
   font-size: var(--font-size16);
-  line-height: 20px;
+  line-height: var(--line-height-text);
 }
 .headign-experience {
   font-size: var(--font-size16);
-  line-height: 20px;
+  line-height: var(--line-height-text);
   font-weight: 600;
   margin-bottom: 15px;
 }

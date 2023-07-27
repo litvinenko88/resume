@@ -8,7 +8,7 @@
 .text-me {
   font-size: var(--font-size16);
   color: var(--color-black);
-  line-height: 24px;
+  line-height: var(--line-height-text);
   margin-bottom: 50px;
 }
 .skills-text {
@@ -58,14 +58,14 @@
 }
 
 @media screen and (max-width: 768px) {
-  .conteiner-text{
+  .conteiner-text {
     display: block;
   }
   .text-me {
     width: 100%;
     margin-bottom: 50px;
   }
-  .soft-skills-container{
+  .soft-skills-container {
     width: 100%;
   }
 }
