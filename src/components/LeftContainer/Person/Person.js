@@ -10,7 +10,7 @@ function PersonFoto() {
 
       <div className={styles["person-container"]}>
         <h1 className={styles.name}>Литвиненко Николай</h1>
-        <h2 className={styles.position}>Front-end разработчик</h2>
+        <h2 className={styles.position}>Front-end разработчик junior</h2>
       </div>
     </div>
   );

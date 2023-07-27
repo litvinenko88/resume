@@ -1,9 +1,10 @@
-import HamburgerMenu from "../HamburgerMenu/HamburgerMenu";
+import NavSatet from "../../context/NavState";
 import Contacts from "./Contacts/Contacts";
 import Footer from "./Footer/Footer";
 import styles from "./RightContainer.module.css";
 import Skills from "./Skills/Skills";
 import React from "react";
+import MainMenu from "../Hamburger/MainMenu";
 
 function RightContainer() {
   return (
@@ -12,7 +13,6 @@ function RightContainer() {
         <Contacts />
         <Skills />
         <Footer />
-        <HamburgerMenu className={styles.hamburger}></HamburgerMenu>
       </div>
     </React.Fragment>
   );

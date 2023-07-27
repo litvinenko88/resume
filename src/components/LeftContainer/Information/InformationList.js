@@ -4,7 +4,7 @@ import Square from "../../UI/Square";
 function InformationList(props) {
   return (
     <li className={styles.box}>
-      <Square />
+      <i className="bi bi-caret-right-fill"></i>
       <p>{props.text}</p>
     </li>
   );

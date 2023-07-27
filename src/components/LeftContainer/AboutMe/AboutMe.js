@@ -49,11 +49,11 @@ function AboutMe() {
             <h2 className={styles["skills-text"]}>Языки</h2>
             <div className={styles["container-skills"]}>
               <div className={styles.box}>
-                <Square />
+                <i className="bi bi-caret-right-fill"></i>
                 <p>Русский</p>
               </div>
               <div className={styles.box}>
-                <Square />
+                <i className="bi bi-caret-right-fill"></i>
                 <p>Английский А1</p>
               </div>
             </div>

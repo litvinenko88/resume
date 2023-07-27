@@ -1,10 +1,9 @@
 import styles from "./ExperienceList.module.css";
-import Square from "../../UI/Square";
 function ExperienceList(props) {
   return (
     <li className={styles["conteiner-text"]}>
       <div className={styles["container-time"]}>
-        <Square />
+        <i className="bi bi-caret-right-fill"></i>
         <p className={styles["text-time"]}>
           {props.year[0]} <br /> {props.year[1]}
         </p>
