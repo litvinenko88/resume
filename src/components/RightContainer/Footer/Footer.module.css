@@ -20,3 +20,20 @@
 .link i {
   color: var(--color-black);
 }
+
+@media screen and (max-width: 1280px) {
+  .wrapper {
+    width: 70%;
+    position: absolute;
+    bottom: 70px;
+    margin-left: auto;
+    margin-right: auto;
+    left: 0;
+    right: 0;
+  }
+}
+@media screen and (max-width: 988px) {
+  .wrapper {
+    width: 80%;
+  }
+}

@@ -21,3 +21,27 @@
     width: 55%;
   }
 }
+
+@media screen and (max-width: 988px) {
+  .wrapper-menu {
+    width: 65%;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .wrapper-menu {
+    width: 80%;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .wrapper-menu {
+    width: 80%;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  .wrapper-menu {
+    width: 100%;
+  }
+}
