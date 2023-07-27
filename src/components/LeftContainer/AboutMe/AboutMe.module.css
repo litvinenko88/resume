@@ -56,3 +56,16 @@
     margin: 0;
   }
 }
+
+@media screen and (max-width: 768px) {
+  .conteiner-text{
+    display: block;
+  }
+  .text-me {
+    width: 100%;
+    margin-bottom: 50px;
+  }
+  .soft-skills-container{
+    width: 100%;
+  }
+}

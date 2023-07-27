@@ -44,3 +44,19 @@
     gap: 30px;
   }
 }
+
+@media screen and (max-width: 768px) {
+  .conteiner-text {
+    display: flex;
+    flex-direction: column;
+    padding: 0 30px;
+  }
+  
+  .container-time {
+    margin-bottom: 20px;
+    width: 100%;
+  }
+  .container-experience {
+    width: 100%;
+  }
+}
