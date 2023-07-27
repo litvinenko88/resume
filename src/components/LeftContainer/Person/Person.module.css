@@ -64,10 +64,11 @@
 
 @media screen and (max-width: 768px) {
   .foto-container {
-    width: 50%;
+    width: 60%;
+    border: 8px solid var(--color-black);
   }
   .img {
-    width: 95%;
+    width: 100%;
   }
   .name {
     font-size: 7vw;
