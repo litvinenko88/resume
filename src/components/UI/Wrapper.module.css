@@ -8,3 +8,9 @@
   margin-bottom: 100px;
   text-transform: uppercase;
 }
+
+@media screen and (max-width: 576px) {
+  .wrapper {
+    font-size: 7vw;
+  }
+}

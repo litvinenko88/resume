@@ -35,7 +35,9 @@ function Prodject() {
       <Heading heading="Мой проекты" />
 
       <div className={styles.wrapper}>
-        <button className={styles.button}>&lt;</button>
+        <button className={styles.button}>
+          <i class="bi bi-arrow-left"></i>
+        </button>
         <div className={styles["display-container"]}>
           <ul className={styles["slider-wrapper"]}>
             {PRODJECT_ARRAY.map((item) => (
@@ -49,7 +51,9 @@ function Prodject() {
             ))}
           </ul>
         </div>
-        <button className={styles.button}>&gt;</button>
+        <button className={styles.button}>
+          <i className="bi bi-arrow-right"></i>
+        </button>
       </div>
     </React.Fragment>
   );
