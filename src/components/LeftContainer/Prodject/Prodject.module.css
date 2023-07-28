@@ -2,7 +2,7 @@
   width: 90%;
   margin-bottom: 50px;
   display: flex;
-  justify-content: space-evenly;
+  justify-content: center;
   align-items: center;
 }
 .display-container {
