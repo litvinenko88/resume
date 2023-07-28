@@ -32,5 +32,8 @@
   .display-container {
     width: 80vw;
   }
+  .button{
+    font-size: 6vw;
+  }
 }
 
