@@ -1,6 +1,6 @@
 import Heading from "../../UI/Heading";
 import styles from "./Prodject.module.css";
-import React from "react";
+import React, { useState } from "react";
 import ProdjectList from "./ProdjectList";
 
 import foto_1 from "../../../assets/img/Prodject-1.jpg";
@@ -29,17 +29,27 @@ const PRODJECT_ARRAY = [
 ];
 
 function Prodject() {
-  console.log();
+  const [positeon, setPosition] = useState(0);
+
+  function onPrevClickHandler() {
+    setPosition((prev) => prev - 100);
+  }
+  function onNextClickHandler() {
+    setPosition((next) => next + 100);
+  }
+
   return (
     <React.Fragment>
       <Heading heading="Мой проекты" />
 
       <div className={styles.wrapper}>
-        <button className={styles.button}>
-          <i class="bi bi-arrow-left"></i>
+        <button className={styles.button} onClick={onPrevClickHandler}>
+          <i className="bi bi-arrow-left"></i>
         </button>
         <div className={styles["display-container"]}>
-          <ul className={styles["slider-wrapper"]}>
+          <ul
+            className={styles["slider-wrapper"]}
+            style={{ right: `${positeon}%` }}>
             {PRODJECT_ARRAY.map((item) => (
               <ProdjectList
                 key={item.link}
@@ -51,7 +61,7 @@ function Prodject() {
             ))}
           </ul>
         </div>
-        <button className={styles.button}>
+        <button className={styles.button} onClick={onNextClickHandler}>
           <i className="bi bi-arrow-right"></i>
         </button>
       </div>
@@ -60,9 +70,3 @@ function Prodject() {
 }
 
 export default Prodject;
-{
-  /* <button>&gt;</button>; */
-}
-{
-  /* <button>&lt;</button>; */
-}
