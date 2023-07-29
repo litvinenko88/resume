@@ -1,12 +1,13 @@
 {
   "files": {
-    "main.css": "/resume/static/css/main.c84048d9.css",
-    "main.js": "/resume/static/js/main.34a570c6.js",
-    "static/media/Prodject-2.jpg": "/resume/static/media/Prodject-2.532fd7a9cfa34c599ad3.jpg",
+    "main.css": "/resume/static/css/main.dfcc77e2.css",
+    "main.js": "/resume/static/js/main.e1a99af2.js",
+    "static/media/Project-2.jpg": "/resume/static/media/Project-2.532fd7a9cfa34c599ad3.jpg",
+    "static/media/project-4.jpg": "/resume/static/media/project-4.f83d6a3dcb521990891c.jpg",
     "static/media/bootstrap-icons.woff?": "/resume/static/media/bootstrap-icons.4753c5ba57962b4d7bf8.woff",
     "static/media/bootstrap-icons.woff2?": "/resume/static/media/bootstrap-icons.6d63d0501e5ed7b79dab.woff2",
     "static/media/105420686-transformed.png": "/resume/static/media/105420686-transformed.188ef7435288e4b93727.png",
-    "static/media/Prodject-1.jpg": "/resume/static/media/Prodject-1.2b26c15ea369af40d2d2.jpg",
+    "static/media/Project-1.jpg": "/resume/static/media/Project-1.2b26c15ea369af40d2d2.jpg",
     "static/media/Roboto-BlackItalic.woff": "/resume/static/media/Roboto-BlackItalic.65f2f623b88fefa3fe3e.woff",
     "static/media/Roboto-LightItalic.woff": "/resume/static/media/Roboto-LightItalic.7647ccb144fe42812063.woff",
     "static/media/Roboto-MediumItalic.woff": "/resume/static/media/Roboto-MediumItalic.28e505168e7ed04c6bae.woff",
@@ -19,7 +20,7 @@
     "static/media/Roboto-Regular.woff": "/resume/static/media/Roboto-Regular.0944be1093c62cedb919.woff",
     "static/media/Roboto-Light.woff": "/resume/static/media/Roboto-Light.c981701f695c76440cb3.woff",
     "static/media/Roboto-Thin.woff": "/resume/static/media/Roboto-Thin.43cf5af8ceefc30114f7.woff",
-    "static/media/Prodject-3.jpg": "/resume/static/media/Prodject-3.62be9c10d626b2e1f301.jpg",
+    "static/media/Project-3.jpg": "/resume/static/media/Project-3.62be9c10d626b2e1f301.jpg",
     "static/media/Roboto-BlackItalic.woff2": "/resume/static/media/Roboto-BlackItalic.e26e5c4fde2ec3e5bf71.woff2",
     "static/media/Roboto-MediumItalic.woff2": "/resume/static/media/Roboto-MediumItalic.86d943cd3dc2a1ab6de7.woff2",
     "static/media/Roboto-LightItalic.woff2": "/resume/static/media/Roboto-LightItalic.8374b555761a39b1c5e7.woff2",
@@ -33,11 +34,11 @@
     "static/media/Roboto-Light.woff2": "/resume/static/media/Roboto-Light.4ca616225439b353c722.woff2",
     "static/media/Roboto-Thin.woff2": "/resume/static/media/Roboto-Thin.8e9578cce5d551036e41.woff2",
     "index.html": "/resume/index.html",
-    "main.c84048d9.css.map": "/resume/static/css/main.c84048d9.css.map",
-    "main.34a570c6.js.map": "/resume/static/js/main.34a570c6.js.map"
+    "main.dfcc77e2.css.map": "/resume/static/css/main.dfcc77e2.css.map",
+    "main.e1a99af2.js.map": "/resume/static/js/main.e1a99af2.js.map"
   },
   "entrypoints": [
-    "static/css/main.c84048d9.css",
-    "static/js/main.34a570c6.js"
+    "static/css/main.dfcc77e2.css",
+    "static/js/main.e1a99af2.js"
   ]
 }
