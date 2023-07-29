@@ -3,9 +3,10 @@ import styles from "./Prodject.module.css";
 import React, { useState } from "react";
 import ProdjectList from "./ProdjectList";
 
-import foto_1 from "../../../assets/img/Prodject-1.jpg";
-import foto_2 from "../../../assets/img/Prodject-2.jpg";
-import foto_3 from "../../../assets/img/Prodject-3.jpg";
+import foto_1 from "../../../assets/img/Project-1.jpg";
+import foto_2 from "../../../assets/img/Project-2.jpg";
+import foto_3 from "../../../assets/img/Project-3.jpg";
+import foto_4 from "../../../assets/img/project-4.jpg";
 
 const PROJECT_ARRAY = [
   {
@@ -26,6 +27,12 @@ const PROJECT_ARRAY = [
     description: "Stack: Html, Css, Sass, JavaScript",
     link: "https://github.com/litvinenko88/dice-games",
   },
+  {
+    img: foto_4,
+    title: "Мое резюме",
+    description: "Stack: Html, Css, JavaScript, ReactJS",
+    link: "https://github.com/litvinenko88/resume",
+  },
 ];
 
 function Project() {
@@ -38,13 +45,13 @@ function Project() {
       setPosition(position - 100);
     }
   };
-   const onNextClickHandler = () => {
-     if (position < (PROJECT_ARRAY.length - 1) * 100) {
-       setPosition(position + 100);
-     } else {
-       setPosition(0);
-     }
-   };
+  const onNextClickHandler = () => {
+    if (position < (PROJECT_ARRAY.length - 1) * 100) {
+      setPosition(position + 100);
+    } else {
+      setPosition(0);
+    }
+  };
 
   return (
     <React.Fragment>

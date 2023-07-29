@@ -65,7 +65,15 @@
     width: 80vw;
   }
   .prodject-button{
+    font-size: 2vw;
+  }
+  .prodject-heading {
+    font-size: 4vw;
+    margin-bottom: 15px;
+  }
+  .prodject-description{
     font-size: 3vw;
+    margin-bottom: 15px;
   }
 }
 
