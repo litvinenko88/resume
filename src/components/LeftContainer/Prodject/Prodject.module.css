@@ -16,6 +16,7 @@
   text-align: center;
   display: flex;
   position: relative;
+  transition: all 1s;
 }
 .button {
   background: none;

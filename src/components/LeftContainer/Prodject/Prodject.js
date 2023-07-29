@@ -7,7 +7,7 @@ import foto_1 from "../../../assets/img/Prodject-1.jpg";
 import foto_2 from "../../../assets/img/Prodject-2.jpg";
 import foto_3 from "../../../assets/img/Prodject-3.jpg";
 
-const PRODJECT_ARRAY = [
+const PROJECT_ARRAY = [
   {
     img: foto_1,
     title: "Детская математика",
@@ -28,15 +28,23 @@ const PRODJECT_ARRAY = [
   },
 ];
 
-function Prodject() {
-  const [positeon, setPosition] = useState(0);
+function Project() {
+  const [position, setPosition] = useState(0);
 
-  function onPrevClickHandler() {
-    setPosition((prev) => prev - 100);
-  }
-  function onNextClickHandler() {
-    setPosition((next) => next + 100);
-  }
+  const onPrevClickHandler = () => {
+    if (position <= 0) {
+      setPosition(100 * (PROJECT_ARRAY.length - 1));
+    } else {
+      setPosition(position - 100);
+    }
+  };
+   const onNextClickHandler = () => {
+     if (position < (PROJECT_ARRAY.length - 1) * 100) {
+       setPosition(position + 100);
+     } else {
+       setPosition(0);
+     }
+   };
 
   return (
     <React.Fragment>
@@ -49,8 +57,8 @@ function Prodject() {
         <div className={styles["display-container"]}>
           <ul
             className={styles["slider-wrapper"]}
-            style={{ right: `${positeon}%` }}>
-            {PRODJECT_ARRAY.map((item) => (
+            style={{ right: `${position}%` }}>
+            {PROJECT_ARRAY.map((item) => (
               <ProdjectList
                 key={item.link}
                 img={item.img}
@@ -69,4 +77,4 @@ function Prodject() {
   );
 }
 
-export default Prodject;
+export default Project;
