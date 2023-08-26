@@ -7,8 +7,21 @@ import foto_1 from "../../../assets/img/Project-1.jpg";
 import foto_2 from "../../../assets/img/Project-2.jpg";
 import foto_3 from "../../../assets/img/Project-3.jpg";
 import foto_4 from "../../../assets/img/project-4.jpg";
+import foto_5 from "../../../assets/img/Project-5.jpg";
 
 const PROJECT_ARRAY = [
+  {
+    img: foto_5,
+    title: "YourMeal",
+    description: "Stack: ReactJS",
+    link: "https://github.com/litvinenko88/YouMeal",
+  },
+  {
+    img: foto_4,
+    title: "Мое резюме",
+    description: "Stack: ReactJS",
+    link: "https://github.com/litvinenko88/resume",
+  },
   {
     img: foto_1,
     title: "Детская математика",
@@ -26,12 +39,6 @@ const PROJECT_ARRAY = [
     title: "Игра в кости",
     description: "Stack: Html, Css, Sass, JavaScript",
     link: "https://github.com/litvinenko88/dice-games",
-  },
-  {
-    img: foto_4,
-    title: "Мое резюме",
-    description: "Stack: Html, Css, JavaScript, ReactJS",
-    link: "https://github.com/litvinenko88/resume",
   },
 ];
 
