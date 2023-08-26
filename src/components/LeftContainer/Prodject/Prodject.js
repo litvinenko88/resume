@@ -13,7 +13,7 @@ const PROJECT_ARRAY = [
   {
     img: foto_5,
     title: "YourMeal",
-    description: "Stack: ReactJS",
+    description: "Stack: ReactJS, Axios",
     link: "https://github.com/litvinenko88/YouMeal",
   },
   {
